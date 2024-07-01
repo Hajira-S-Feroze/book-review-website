@@ -3,4 +3,5 @@ from django.http import HttpResponse
 
 # Create your views here.
 def username(request):
-    return HttpResponse("Hello, World!")
+    context = {}
+    return render(request, "mainapp/userlogin.html", context)
