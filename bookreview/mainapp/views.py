@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse
 
 # Create your views here.
 def username(request):
-    context = {}
+    
+    context = {"username":"hajira"}
     return render(request, "mainapp/userlogin.html", context)

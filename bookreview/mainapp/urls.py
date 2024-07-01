@@ -5,4 +5,5 @@ app_name= "mainapp"
 
 urlpatterns = [
     path("" ,views.username, name="username"),
+    
 ]

@@ -6,3 +6,4 @@
 
 ## tailwind install
 
+## create superuser if required
